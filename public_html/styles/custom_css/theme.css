@@ -22,21 +22,22 @@ h1, h3 {
 
 h1 {
     /*margin: 20rem 0 1rem;*/
-  font-size: 3rem;
+  font-size: 2.5em;
 }
 
 h3 {
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 1.3em;
+}
+
+#main_header {
+  margin-top:0.20em;
 }
 
 #logo {
   margin-top: 0.75em;
 }
 
-ul#navbar {
-
-}
 
 /*.container {
   background-color: #DCDCDC;
