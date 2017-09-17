@@ -1,6 +1,8 @@
 html {
   font-size: 90%;
   height: 100%;
+  min-height: 100;
+  margin: 0px;
 }
 
 body {
@@ -23,16 +25,6 @@ img#logo{
   height:100%;
 }
 
-/*body
-{
-  margin: 0;
-  padding: 0;
-  font-size: 1.6rem;
-  color: #353535;
-  background: linear-gradient(to bottom, #ccc, #fff 30%);
-  background-repeat: no-repeat;
-}*/
-
 h1, h3 {
   font-family: 'Arial', sans-serif;
   /*text-align: center;*/
@@ -49,14 +41,18 @@ h3 {
   font-size: 1.3em;
 }
 
+#bigname-container {
+  margin-top: 0.5em;
+  padding-left: 1em;
+}
+
 #main_header {
-  margin-top:0.20em;
   padding: 0;
   margin: 0;
 }
 
 #logo {
-  margin-top: 0.75em;
+  margin-top: 1em;
   margin-right: 0.75em;
   float: left;
 }
