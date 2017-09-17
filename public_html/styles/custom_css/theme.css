@@ -1,8 +1,8 @@
 html {
-  font-size: 62.5%;
+  font-size: 90%;
 }
 
-body
+/*body
 {
   margin: 0;
   padding: 0;
@@ -10,22 +10,26 @@ body
   color: #353535;
   background: linear-gradient(to bottom, #ccc, #fff 30%);
   background-repeat: no-repeat;
-}
+}*/
 
-h1,h3{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+h1, h3 {
+  font-family: 'Arial', sans-serif;
+  /*text-align: center;*/
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 h1 {
-  margin: 20rem 0 1rem;
+    /*margin: 20rem 0 1rem;*/
   font-size: 3rem;
 }
 
 h3 {
   font-weight: normal;
   font-size: 1.4rem;
+}
+
+.container {
+  background-color: #DCDCDC;
 }
