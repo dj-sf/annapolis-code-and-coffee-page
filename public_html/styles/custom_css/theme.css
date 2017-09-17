@@ -2,6 +2,11 @@ html {
   font-size: 90%;
 }
 
+img#logo{
+  height: 50px;
+  width: 50px
+}
+
 /*body
 {
   margin: 0;
@@ -36,9 +41,9 @@ h3 {
 
 #logo {
   margin-top: 0.75em;
+  margin-right: 0.75em;
+  float: left;
 }
 
-
-/*.container {
-  background-color: #DCDCDC;
-}*/
+h3#navbar {
+}

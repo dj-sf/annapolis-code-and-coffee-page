@@ -8,31 +8,52 @@
   <link rel="stylesheet" href="styles/bootstrap/css/bootstrap-grid.min.css">
   <!--Custom Styles  -->
   <link rel="stylesheet" href="styles/custom_css/theme.css">
+  <link rel="stylesheet" href="styles/custom_css/development.css">
   <title>Annapolis Code and Coffee</title>
 </head>
 
 <body>
   <div class = 'container'>
     <div class="row"> <!--HEADER AND NAVBAR  -->
-
+      <div class='col-md-12'>
        <!-- Logo goes here -->
-       <div class = "col-sm-1">
-         <img id='logo' src = "https://dummyimage.com/60x60/1500ff/fff.png", alt = 'logo'>
-       </div>
-
-       <div class = "page-header">
-         <h1 id="main_header">Annapolis Code &amp; Coffee</h1>  <!--Page title-->
-         <h3 id=navbar>
-          <a href = "index.html">Home</a> |
-          <a href='about.html'>About</a> |
-          <a href = 'calendar.html'>Calendar</a> |
-          <a href = 'blog.html'>Blog</a> |
-          <a href = 'resources.html'>Resources</a> |
-          <a href ='contact.html'>Contact</a>
-          </h3>
+       <div id='logo-container'>
+          <img id='logo' src = "https://dummyimage.com/60x60/1500ff/fff.png", alt = 'logo'>
+        </div> <!--end #logo-container-->
+        <div id= 'bigname-container'>
+          <div class = "page-header">
+            <h1 id="main_header">Annapolis Code &amp; Coffee</h1>  <!--Page title-->
+            <h3 id=navbar>
+              <a href = "index.html">Home</a> |
+              <a href='about.html'>About</a> |
+              <a href = 'calendar.html'>Calendar</a> |
+              <a href = 'blog.html'>Blog</a> |
+              <a href = 'resources.html'>Resources</a> |
+              <a href ='contact.html'>Contact</a>
+            </h3>
+         </div> <!--end .page-header-->
+       </div> <!-- end #bigname-container -->
        </div>
      </div>
+
+
+     <div id='content' class="row">
+       <div id='main-content' class='col-md-8'>
+          <div class ='col-md-12 test'>
+          Main content
+          </div>
+          <!-- <img src='https://dummyimage.com/600x300/1677f5/fff' alt='bigstory image'> -->
+        </div>
+
+
+       <div class='col-md-4 test'>
+         Less content
+       </div>
+     </div>
+
+     </div>
+
   </div> <!--closes .container-->
 </body>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </html>

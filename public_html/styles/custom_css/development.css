@@ -1,1 +1,8 @@
 /*Not to be used in live site*/
+
+
+.test {
+  border-style:solid;
+  border-color:red;
+  background-color: grey;
+}
