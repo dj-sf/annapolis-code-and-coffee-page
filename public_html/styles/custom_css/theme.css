@@ -1,18 +1,15 @@
 html {
-  font-size: 90%;
+  font-size: 100%;
   height: 100%;
   min-height: 100;
   margin: 0px;
 }
 
 body {
+  margin:0px;
+  padding: 0px;
   min-height: 100%;
   height: 100%;
-}
-
-img#logo{
-  height: 50px;
-  width: 50px
 }
 
 .fill {
@@ -27,12 +24,9 @@ img#logo{
 
 h1, h3 {
   font-family: 'Arial', sans-serif;
-  /*text-align: center;*/
-  /*text-transform: uppercase;*/
 }
 
 h1 {
-    /*margin: 20rem 0 1rem;*/
   font-size: 2.5em;
 }
 
@@ -41,23 +35,47 @@ h3 {
   font-size: 1.3em;
 }
 
-#bigname-container {
-  margin-top: 0.5em;
-  padding-left: 1em;
+#header-container {
+  margin-top: 0.8em;
+  margin-left: 8em;
 }
 
 #main_header {
-  padding: 0;
-  margin: 0;
+  margin-top:0em;
+  margin-bottom:0em;
 }
 
 #logo {
+  height: 70px;
+  width: 70px;
   margin-top: 1em;
   margin-right: 0.75em;
+  margin-left: 2em;
   float: left;
 }
 
 #navbar {
-  margin: 0;
-  padding: 0;
+  margin-top: 0em;
 }
+
+@media only screen and (max-width: 767px) {
+    #logo {
+      margin-top:2em;
+    }
+  }
+
+  @media only screen and (max-width: 433px) {
+      #main_header {
+        display: none;
+      }
+      #logo {
+        height: 50px;
+        width: 50px;
+      }
+      #navbar{
+        margin-top: 1.5em;
+      }
+      #headers-column{
+        min-width: 433px;
+      }
+    }
