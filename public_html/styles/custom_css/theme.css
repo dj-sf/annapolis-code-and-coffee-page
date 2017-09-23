@@ -25,7 +25,7 @@ body {
 }
 
 .boxcolor {
-  background-color: #D2D2D2;
+  background-color: rgba(227, 217, 221, 0.72);
 }
 
 .box1 {
@@ -33,6 +33,7 @@ body {
 
 .box2 {
   height: 250px;
+  background-color: rgba(227, 217, 221, 0.72);
 }
 
 h1, h3 {
@@ -48,13 +49,31 @@ h3 {
   font-size: 1.3em;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a div.box2:hover {
+  background-color: rgba(227, 217, 221, 0.9);
+}
+
 .box2-header {
   padding-left: 1em;
   padding-top: 0.25em;
 }
 
+.image_container{
+  text-align: center;
+  margin-top: -2%;
+}
+
 #header-box{
   position: relative;
+}
+
+#brown_mustache_logo {
+  height: 200px;
+  width: 260px;
 }
 
 #headers-column {
@@ -113,7 +132,7 @@ font-size: 0.8em;
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 767px) {
     #logo {
       margin-top:0em;
     }
