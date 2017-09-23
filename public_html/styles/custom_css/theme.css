@@ -32,7 +32,7 @@ body {
 }
 
 .box2 {
-  height: 250px;
+  height: 270px;
   background-color: rgba(227, 217, 221, 0.72);
 }
 
@@ -109,7 +109,7 @@ a div.box2:hover {
 #big-picture {
   /*margin-left: 2em;
   margin-right: 1em;*/
-  height: 522px;
+  height: 562px;
   margin-top: 20px;
 }
 
